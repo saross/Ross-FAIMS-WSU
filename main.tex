@@ -136,14 +136,6 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{TOP Guidelines: publisher adoption}
-  \begin{figure}[H]
-    \centering
-        \includegraphics[height=.7\textheight]{figures/TOP-landscape.png}
-        \caption{The Landscape of Open Data Policies \cite{Mellor2018-bf}}
-        \label{fig:figure2}
-  \end{figure}
-\end{frame}
 
 % https://tex.stackexchange.com/a/2292/5483
 % https://ctan.org/pkg/enumitem?lang=en
@@ -167,8 +159,17 @@
     \cite{Osf2014-pf}
 \end{frame}
 
-\begin{frame}{Open Funders Research Group}
-  Major private funders have also endorsed TOP Guidelines:
+\begin{frame}{TOP Guidelines: publisher adoption}
+  \begin{figure}[H]
+    \centering
+        \includegraphics[height=.7\textheight]{figures/TOP-landscape.png}
+        \caption{The Landscape of Open Data Policies \cite{Mellor2018-bf}}
+        \label{fig:figure2}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{TOP Guidelines: funder endorsement}
+  Private funders have endorsed via the Open Funders Research Group:
     \begin{itemize}[label=\textbullet]
         \item Alfred P. Sloan Foundation
         \item American Heart Association
@@ -293,6 +294,73 @@
     \end{itemize}
 \end{frame}
 
+
+% Slides to speak to at WSU 5 June 2019
+
+\section{Lessons from FAIMS}
+
+\begin{frame}{Research Specific}
+ \begin{figure}[H]
+    \centering
+        \includegraphics[height=.75\textheight]{figures/FAIMS-screenshots.png}
+        \caption{FAIMS Mobile: GIS and `picture dictionaries'}
+        \label{fig:FAIMS-mobile-screenshots}
+ \end{figure}
+\end{frame}
+
+
+\begin{frame}{Generalised}
+ \begin{figure}[H]
+    \centering
+        \includegraphics[height=.75\textheight]{figures/FAIMS-generalised.png}
+        \caption{FAIMS Mobile customisations on GitHub}
+        \label{fig:FAIMS-github}
+ \end{figure}
+\end{frame}
+
+\begin{frame}{Modular and federated}
+ \begin{figure}[H]
+    \centering
+        \includegraphics[height=.75\textheight]{figures/FAIMS-federated.png}
+        \caption{FAIMS Mobile federation}
+        \label{fig:FAIMS-federation}
+ \end{figure}
+\end{frame}
+
+\begin{frame}{Open Source}
+ \begin{figure}[H]
+    \centering
+        \includegraphics[height=.75\textheight]{figures/FAIMS-generalised.png}
+        \caption{FAIMS Mobile 'core' code is GPLv3}
+        \label{fig:FAIMS-github-OSS}
+ \end{figure}
+\end{frame}
+
+\begin{frame}{Small data collection infrastructure: key messages}
+    \begin{itemize}[label=\textbullet]
+        \item We deserve research-specific software.
+        \item Diverse practices and limited resources require generalised software.
+        \item Do one thing well with modular and federated software (but slice the pie thoughtfully).
+        \item Open-source software has advantages (but is difficult to sustain). 
+        \item Scope requirements carefully.
+        \item Invest in outreach and engagement.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Challenges and paths forward}
+  How do we get from where we are now to where we want to be?
+      \begin{itemize}[label=\textbullet]
+        \item Understand the evolving expectations of transparent research. 
+        \item Look past desktop software (Excel, ARCGIS, Filemaker, Access, etc.).
+        \item Rally around emerging research- and domain-specific solutions (even if imperfect).
+        \item Overcome `not invented here'; you don't need a bespoke solution.
+        \item Budget for `ground-up' transparency (data and code). Up-front costs will be high but offer longer-term payoffs (in costs, time, and quality).
+        \item Implement (and budget for) fundamental good practice in data and code management before other technologies.
+        \item Improve research design (prioritise approach over methods) \cite{Muthukrishna2019-kt, Hole1973-cy}
+    \end{itemize}
+\end{frame}
+
+% In-depth information for reference
 \section{Lessons from FAIMS}
 
 \begin{frame}{Introduction to the FAIMS Project}
@@ -428,6 +496,11 @@
     \end{itemize}
 \end{frame}
 
+\begin{multicols}{2}[]
+\bibliography{references}
+\bibliographystyle{apalike}
+\end{multicols}
+
 \section{From current practice to better practice}
 
 \begin{frame}{Challenges and paths forward}
@@ -450,12 +523,6 @@
 
 \section{References}
 
-\begin{multicols}{2}[]
-\bibliography{references}
-\bibliographystyle{apalike}
-\end{multicols}
-
-
 % \begin{frame}[allowframebreaks]{References}
   
 %   \bibliography{references}
@@ -468,7 +535,8 @@
 %This presentation is available at:
 %\texttt{https://osf.io/v5jp7/}
 
-Source code for this presentation is available at: \texttt{https://github.com/saross/CAA-Ross-FAIMS}.
+Source code for this presentation is available at: 
+\texttt{https://github.com/ saross/Ross-FAIMS-current}.
 
 FAIMS Project software and documentation can be found at:
 \texttt{https://github.com/faims}.
