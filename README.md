@@ -1,4 +1,8 @@
-# A Beamer Theme for Macquarie University
+A presentation delivered to the Digital Himanities seminar at Western Sydney University on 05 June 2019. 
+
+LaTeX template
+
+A Beamer Theme for Macquarie University
 
 Forked from [Metropolis](https://github.com/matze/mtheme)
 
